@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "darkness",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -13,17 +13,17 @@
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "LGPLv3",
+  "icon": "assets/darkness/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "org.oakbricks.darkness.TDAMain"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "darkness.mixins.json"
   ],
 
   "depends": {
@@ -33,6 +33,7 @@
     "java": ">=16"
   },
   "suggests": {
-    "another-mod": "*"
+    "oakores": "*",
+    "textileagriculture": "*"
   }
 }
