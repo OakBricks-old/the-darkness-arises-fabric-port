@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "org.oakbricks.darkness.TDAMain"
+    ],
+    "client": [
+      "org.oakbricks.darkness.TDAClient"
     ]
   },
   "mixins": [
